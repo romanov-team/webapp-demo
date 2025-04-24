@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./index.module.scss"
-import Link from "next/link";
 
 
 export default function IndexPage() {
   return (
     <div className={(styles.index)}>
-      <h1>Page 1</h1>
-      <Link href="/page2">Page 2</Link>
+      <h1>Page 2</h1>
 
       <div className={styles.list}>
         {Array.from({ length: 100 }).map((it, key) =>
