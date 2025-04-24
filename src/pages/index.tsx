@@ -8,7 +8,10 @@ export default function IndexPage() {
       <div className={styles.list}>
         {Array.from({ length: 100 }).map((it, key) =>
 
-          <div className={styles.item}>{key}</div>
+          <div className={styles.item}>{key}
+            <input type="text"/>
+
+          </div>
         )}
       </div>
     </div>
